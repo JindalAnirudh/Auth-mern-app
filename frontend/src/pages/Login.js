@@ -31,7 +31,7 @@ function Login() {
       return handleError("All fields are required");
     }
     try{
-      const url = "https://auth-mern-app-api-one.vercel.app/auth/login";
+      const url = "https://auth-mern-app-api-alpha.vercel.app/auth/login";
       const response = await fetch(url, {
         method: 'POST',
         headers: {
